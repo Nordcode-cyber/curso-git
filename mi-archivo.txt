@@ -1,2 +1,0 @@
-hola, Javascript
-estoy aprendiendo Git
