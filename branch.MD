@@ -12,5 +12,9 @@ apuntadores a las confirmaciones(commit), que sean padres directos de estos (un 
 casos de confirmación normal, y múltiples padres en los casos de estar confirmando una fusión
 (merge) de dos o más ramas).
 Por ejemplo, que tienes una carpeta con tres archivos, que preparas (stage) todos ellos y los confirmas (commit). Al preparar los archivos, Git realiza una suma de control de cada uno de ellos 
-(un resumen SHA-1, tal y como se menciono, almacena una copia de cada uno en el repositorio 
-(estas copias se denominan "blobs"), y guarda cada suma de control en el área de preparación (staging area):
+(un resumen SHA-1), tal y como se menciono, almacena una copia de cada uno en el repositorio 
+(estas copias se denominan "blobs"), y guarda cada suma de control en el área de preparación (staging area).
+
+ <font color="blue">Norberto@Laptop.</font><font color="yellow">MinG64.</font><font color="red">Curso-git.</font><font color="green">(graficos)</font>
+ $ git add README.md test.rb LICENSE
+ 
