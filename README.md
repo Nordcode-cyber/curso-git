@@ -1,4 +1,4 @@
-                                     ### curso-git
+                                     ### CURSO GIT
         
                                 ##Git Software control de versiones
     Git es un software de control de versiones de software, dentro del proyecto para registrar de archivos,
