@@ -15,6 +15,6 @@ Por ejemplo, que tienes una carpeta con tres archivos, que preparas (stage) todo
 (un resumen SHA-1), tal y como se menciono, almacena una copia de cada uno en el repositorio 
 (estas copias se denominan "blobs"), y guarda cada suma de control en el área de preparación (staging area).
 
- <font color="blue">Norberto@Laptop.</font><font color="yellow">MinG64.</font><font color="red">Curso-git.</font><font color="green">(graficos)</font>
  $ git add README.md test.rb LICENSE
- 
+ $ git commit -m 'commit inicial del proyecto'
+
