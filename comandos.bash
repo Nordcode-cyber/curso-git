@@ -18,4 +18,18 @@ $ git push origin main
 $ git status
 $ git pull origin main
 $ git log --oneline
-#
+#cambiar ramas especifica(git checkout)
+$ git branch
+$ git checkout feature-login
+#fusionar ramas especificas en la rama actual (git merge)
+$ git checkout main
+$ git merge feature-login
+$ git log --oneline
+#mostrar el estado del repositorio incluido cambios sin commit(git status)
+$ git status 
+$ echo "Data Added" >> hello.txt
+$ git status
+#Reset la rama actual a el commit especifico (git reset)
+$ git log --oneline
+$ git reset --hard <commit-hash>
+$ git status
